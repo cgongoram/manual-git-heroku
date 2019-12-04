@@ -29,3 +29,9 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/cgongoram/manual-git-heroku.git
 git push -u origin master
+
+PARA ACTUALIZAR LOS CAMBIOS A LOS ARCHIVOS:
+
+git commit -am "tercera modificacion"
+git push -u origin master
+
