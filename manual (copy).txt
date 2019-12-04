@@ -1,0 +1,22 @@
+Establecer el repositorio destino:
+
+git remote set-url origin https://github.com/cgongoram/heroku-test.git
+
+preguntar cual es el repositorio activo actalmente:
+
+git config --local remote.origin.url
+
+Para verificar que el repositorio GIT coincide con la APP de Heroku
+
+git remote -v
+
+heroku  https://git.heroku.com/node-chat-cgongoram.git (fetch)
+heroku  https://git.heroku.com/node-chat-cgongoram.git (push)
+origin  https://github.com/cgongoram/heroku-test.git (fetch)
+origin  https://github.com/cgongoram/heroku-test.git (push)
+
+Para seleccionar la app de Heroku donde se van a subir los cambios: nombre de la app del ejemplo es "node-chat-cgongoram-dev"
+
+heroku git:remote -a node-chat-cgongoram-dev
+
+set git remote heroku to https://git.heroku.com/node-chat-cgongoram-dev.git
