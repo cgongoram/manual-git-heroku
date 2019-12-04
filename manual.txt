@@ -22,6 +22,7 @@ heroku git:remote -a node-chat-cgongoram-dev
 set git remote heroku to https://git.heroku.com/node-chat-cgongoram-dev.git
 
 COMANDOS INICIALES CUANDO SE ACABA DE CREAR EL REPOSITORIO Y SE QUIEREN SUBIR LOS ARCHIVOS YA CREADOS
+ESTOS COMANDOS SON PARA UN REPOSITORIO YA CREADO DESDE LA PAGINA DE GITHUB. CREAN EL ARCHIVO README.MD
 
 echo "# manual-git-heroku" >> README.md
 git init
@@ -30,7 +31,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/cgongoram/manual-git-heroku.git
 git push -u origin master
 
-PARA ACTUALIZAR LOS CAMBIOS A LOS ARCHIVOS:
+PARA ACTUALIZAR LOS CAMBIOS A LOS ARCHIVOS, EL COMMIT SERA DESCRITO POR LO QUE ESTA EN COMILLAS, EN ESTE EJEMPLO LA DESCRIPCION SERA    "tercera modificacion"
 
 git commit -am "tercera modificacion"
 git push -u origin master
