@@ -1,2 +1,8 @@
 Este documento es una prueba de la rama de desarrollo. en este momento aun no se decide si el documento se agregara a la rama master.
 Aqui se agregaron mas cosas al archivo propuesto en la version de desarrollo.
+Las ramas que se propone utilizar en cualquier proyecto son:
+Master
+  Hotfix es una rama de master que sirve para la correccion de errores detectados en la version Master que se corregiran y se grabaran en                          Master y en Development
+  Development
+    Feature es una rama de Development que se usa cuando se estan desarrollando nuevas funciones
+    Release es una rama de Development que se usa para los cambios que se deben incluir en la proxima version de a App
