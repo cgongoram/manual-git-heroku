@@ -40,3 +40,11 @@ PARA ACTUALIZAR LOS CAMBIOS QUE ESTAN EN EL SERVIDOR DE GITHUB PERO NO ESTAN EN 
 
 git pull origin master
 
+PARA ACTUALIZAR EN GITHUB Y EN HEROKU LOS CAMBIOS HECHOS EN LA MAQUINA LOCAL (se recomienda asegurarse de tener el repositorio correcto seleccionado en la maquina local y asegurarse de iniciar sesion en heroku):
+
+git add .
+git commit -m "Ultima actualizacion"
+git push -u origin master
+git push heroku master
+
+
