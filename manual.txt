@@ -1,3 +1,8 @@
+Iniciar sesion en github:
+
+git config --global user.email "cgongoram@hotmail.com"
+git config --global user.name "Carlos Gongora"
+
 Establecer el repositorio destino:
 
 git remote set-url origin https://github.com/cgongoram/heroku-test.git
