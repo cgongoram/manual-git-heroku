@@ -52,4 +52,15 @@ git commit -m "Ultima actualizacion"
 git push -u origin master
 git push heroku master
 
+Consultar las credenciales git activas:
+
+git config –list
+
+git config –global user.name "Your UserName"
+git config –global user.email "Your EmailID"
+
+git config user.name
+
+https://www.toolsqa.com/git/set-up-default-credentials-for-git-config/
+
 
